@@ -1,0 +1,3 @@
+[submodule "libs/TomRijnbeek.Game"]
+	path = libs/TomRijnbeek.Game
+	url = git@github.com:tomrijnbeek/tomrijnbeek-game.git
