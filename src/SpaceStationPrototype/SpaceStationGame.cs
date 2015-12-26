@@ -1,9 +1,8 @@
-﻿using amulware.Graphics;
-using TomRijnbeek.Game;
+﻿using TomRijnbeek.Game.Components;
 
 namespace SpaceStationPrototype
 {
-    public class SpaceStationGame : Game
+    public class SpaceStationGame : ComponentGame
     {
         public SpaceStationGame()
             : base("Space Station Prototype")
@@ -11,16 +10,6 @@ namespace SpaceStationPrototype
         }
 
         protected override void Load()
-        {
-            
-        }
-
-        protected override void Update(UpdateEventArgs e)
-        {
-            
-        }
-
-        protected override void Render(UpdateEventArgs e)
         {
             
         }
