@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpaceStationPrototype
 {
     class Program
     {
-        static void Main(string[] args)
+        // ReSharper disable once InconsistentNaming
+        private static void Main()
         {
-            Console.ReadKey();
+            using (var game = new SpaceStationGame())
+            {
+                game.Run(60);
+            }
         }
     }
 }
